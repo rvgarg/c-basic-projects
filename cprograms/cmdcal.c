@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<string.h>
 int main(int argc,char *argv[])
 {
+  //checking no. of argyments
 if(argc!=4)
 {
 printf("give 3 arguments");
@@ -12,9 +12,9 @@ else{
 printf("arguments passed");
 int c=0,a,b;
 char ch;
+  //converting arguments
 a=(int) atoi(argv[1]);
 b=(int) atoi(argv[2]);
-//strcpy(ch,argv[3]);
 switch(argv[3][0])
 {
 case '+':
